@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/input.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+<link rel="shortcut icon" href="/assets/code.png" type="image/x-icon">
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>code verse</title>
+  <div class="overlay" id="overlay">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/c8019eb9-24ef-453d-8642-db96cf7d0e62/bIA1P0QALe.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+  </div>
+</head>
+<body>
+  <header class="">
+   <div class="container mx-auto  w-[90%] right-[5%] 
+    border py-6  md:static ml-auto  top-[10px] rounded-[35px] bg-[#2a2a2a3e] flex items-center 
+   justify-between border-[#ddd] md:mt-[20px]">
+    <div class="logo text-white text-2xl mr-[10px] lg:pr-[30px] cursor-pointer select-none">
+      Code<span class="text-violet-500">Verse</span>
+    </div>
+    <nav class="">
+      
+      <ul class="absolute top-0 left-0  py-14 w-[100vw] border-[#777] hidden md:flex md:static md:py-0
+      md:ml-[15px] 
+      md:border-none md:w-auto  flex flex-col gap-5 items-center justify-center 
+      right-0 bg-indigo-600 md:bg-transparent md:flex-row lg:pl-[30px] md:justify-between" id="ul" style="z-index: 100;">
+        <li class="relative"><a href="#home">الرئيسيه</a></li>
+        <li  class="relative"><a href="#services">خدماتنا</a></li>
+        <li  class="relative"><a href="#projects">مشاريعنا</a></li>
+        <li  class="relative"><a href="#clients">عملاؤنا</a></li>
+        <li  class="relative"><a href="#contact">تواصل معنا</a></li>
+        <i class="ri-close-line  md:hidden text-2xl text-white absolute h-full cursor-pointer right-[20px] top-2" id="close"></i>
+      </ul>
+      <i class="ri-menu-2-line  md:hidden text-2xl text-white  top-[-20px] cursor-pointer ml-[13px]" id="menu"></i>
+    </nav>
+   </div>
+  </header>
+
+  <section id="home" class="landing mt-[100px] pt-[30px]  md:mt-[100px]" >
+    <div class="container mx-auto w-[83%] flex flex-col gap-5 items-center justify-center md:flex-row-reverse">
+      <div class="basis-3/4 w-80">
+        <img src="assets/left.png" alt="" class="select-none steps__step">
+      </div>
+      <div class="hero__text">
+        <h1 class="text-xl md:text-3xl font-bold">شريكك التقني للحصول علي حلول برمجيه مخصصه ومبتكره 
+          <span class="text-violet-500 mr-[5px]">وعالية الجوده</span></h1>
+        <p class="mt-[20px] leading-8">نحن فريق مكون من خبراء في البرمجه في جميع التخصصات نمتلك خبره واسعه في مجال البرمجه سواء
+           مواقع الكترونيه او تطبيقات جوال يتمتع فريقنا بالخبره والقدرات الإبداعيه لدعم رواد الأعمال </p>
+        <div class="mt-[15px] flex justify-center items-center md:mt-[60px]">
+          <button
+          class="overflow-hidden relative w-32 p-2 h-12 bg-white text-indigo-500 border-none
+           rounded-2xl text-xl font-bold cursor-pointer relative z-10 group"
+        >
+       احجز الأن
+          <span
+            class="absolute w-36 h-32 -top-8 -left-2 bg-green-200 rounded-full transform 
+            scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-bottom"
+          ></span>
+          <span
+            class="absolute w-36 h-32 -top-8 -left-2 bg-green-400 rounded-full
+             transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-bottom"
+          ></span>
+          <span
+            class="absolute w-36 h-32 -top-8 -left-2 bg-green-600
+             rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform 
+             group-hover:duration-1000 duration-500 origin-bottom"
+          ></span>
+          <span
+            class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
+            >code verse</span
+          >
+        </button>
+        
+        <button
+        class="mr-[10px] lg:mr-[20px] overflow-hidden relative w-32 p-2 h-12 bg-white text-yellow-500 border-none
+         rounded-2xl text-xl font-bold cursor-pointer relative z-10 group"
+      >
+       مشاريعنا
+        <span
+          class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+        ></span>
+        <span
+          class="absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+        ></span>
+        <span
+          class="absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"
+        ></span>
+        <span
+          class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
+          >code verse</span
+        >
+      </button>
+      
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="mt-[50px] md:mt-[100px] ">
+    <div class="container mx-auto w-[83%]">
+      <div class="mb-[40px] text-center about__text">
+        <h2 class="text-4xl mb-[20px]">خدمات <span class="text-violet-500">codeverse</span></h2>
+        <p>قم بمعاينة وتصفح خدماتنا المميزة</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-[70px]">
+        <!-- card 1 -->
+      <div class="border border-white rounded-[20px] py-[30px] bg-[#2a2a2a3e] hover:scale-105 cursor-pointer ease-in-out 
+      duration-1000 about__img ">
+        <div class="mr-[15px]">
+      <div>
+        <img src="assets/web-design.png" alt="" class="w-28 select-none ">
+      </div>
+      <div class="mt-[20px]">
+    <h3  class="text-2xl mb-[10px]">تصميم المواقع الإلكترونيه</h3>
+    <p>خدمة تصميم مواقع الويب الإبداعيه لتجارب مذهله وجذابه عبر الإنترنت</p>
+      </div>
+    </div>
+      </div>
+        <!-- card 2 -->
+      <div class="border 
+      tra-none border-white rounded-[20px] py-[30px] bg-[#2a2a2a3e] hover:scale-105 cursor-pointer ease-in-out 
+      duration-1000 abouto__img">
+        <div class="mr-[15px]">
+      <div>
+        <img src="assets/user-interface.png" alt="" class="w-28 select-none ">
+      </div>
+      <div class="mt-[20px]">
+    <h3  class="text-2xl mb-[10px]">تطبيقات الجوال</h3>   
+        <p>
+      تصميم مبتكر لتطبيق جوال يلهم ويبهر المستخدمين وسهوله استخدام التطبيق</p>
+      </div>
+    </div>
+      </div>
+        <!-- card 3 -->
+      <div class="border border-white rounded-[20px] py-[30px] bg-[#2a2a2a3e] hover:scale-105 cursor-pointer ease-in-out 
+      duration-1000 about__img">
+        <div class="mr-[15px]">
+      <div>
+        <img src="assets/تنزيل (1).png" alt="" class="w-28 select-none ">
+      </div>
+      <div class="mt-[20px]">
+    <h3  class="text-2xl mb-[10px]">تطبيقات سطح المكتب</h3>
+    <p>خدمة تصميم تطلبقات سطع المكتب لتجارب مذهله وجذابه عبر الإنترنت</p>
+      </div>
+    </div>
+      </div>
+        <!-- card 4 -->
+      <div class="border border-white rounded-[20px] py-[30px] bg-[#2a2a2a3e] hover:scale-105 cursor-pointer ease-in-out 
+      duration-1000 abouto__img">
+        <div class="mr-[15px]">
+      <div>
+        <img src="assets/gallery.png" alt="" class="w-28 select-none ">
+      </div>
+      <div class="mt-[20px]">
+    <h3  class="text-2xl mb-[10px]">إدارة الحملات الإعلانية</h3>
+    <p>خدمة ادارة الحملات الإعلانيه لتجارب مذهله وجذابه عبر الإنترنت</p>
+      </div>
+    </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="mt-[70px] md:mt-[170px]">
+    <div class="container mx-auto w-[83%]">
+      <h3 class="text-4xl text-center font-bold mb-[30px] testimonial__title">مشاريعنا</h3>
+   <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper about__img">
+    <!-- Slides -->
+      <!-- Slide 1 -->
+    <div class="swiper-slide mb-[30px] pb-[20px] select-none ">
+      <div class="">
+       <img src="assets/‪responsive __ burger website - Google Chrome‬ 09_10_45 05_33_00 ص.png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">burger</h3>
+       <p class="mb-[20px]">صفحة هبوط جميله مصممه للمطاعم والكافيهات ويوجد فيه منيو</p>
+       <a href="
+       https://saad22224.github.io/burger-theme-2/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+      <!-- Slide 2 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‪GitHub‬ 12_10_45 05_55_40 ص.png" alt="" 
+       class="rounded-xl select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">cafechino</h3>
+       <p class="mb-[20px]">صفحة هبوط جميله مصممه للكافيهات </p>
+       <a href="https://saad22224.github.io/cafechino/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+      <!-- Slide 3 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‪GitHub‬ 12_10_45 05_54_35 ص.png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">fruity</h3>
+       <p class="mb-[20px]">صفحة هبوط جميله مصممه للمطاعم والكافيهات ويوجد فيه منيو</p>
+       <a href="
+       https://saad22224.github.io/fruity/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+
+      <!-- Slide 4 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‪GitHub‬ 12_10_45 05_53_24 ص.png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">vex</h3>
+       <p class="mb-[20px]">صفحة هبوط جميله مصممه لمتاجر الإلكترونيات</p>
+       <a href="https://saad22224.github.io/vex/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+   
+      <!-- Slide 5 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‪GitHub‬ 12_10_45 05_51_49 ص.png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">interno</h3>
+       <p class="mb-[20px]">صفحة هبوط جميله مصممه لمحلات الاثاث</p>
+       <a href="https://saad22224.github.io/Interno/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+   
+      <!-- Slide 6 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‪GitHub‬ 06_10_45 04_36_17 م.png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">insove</h3>
+       <p class="mb-[20px]">صفحة هبوط جميله مصممة للمستشفيات والعيادات</p>
+       <a href="https://saad22224.github.io/Insove-Healthcare/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+   
+      <!-- Slide 7 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‫تكوين _ الرئيسية - Google Chrome‬ 16_01_46 10_26_39 م (1).png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">Takween</h3>
+       <p class="mb-[20px]">موقع مصمم لشرحكة انتاج سعودية</p>
+       <a href="https://takweena.com/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+   
+      <!-- Slide 8 -->
+    <div class="swiper-slide mb-[30px]  pb-[20px] select-none">
+      <div class="">
+       <img src="assets/‪Eorder - Home - Google Chrome‬ 16_01_46 10_37_17 م.png" alt="" 
+       class="rounded-xl  select-none">
+      </div>
+      <div class="text-center mt-[10px]">
+       <h3 class="mb-[10px] uppercase tracking-widest">eorder</h3>
+       <p class="mb-[20px]">موقع متكامل لمطعم بيتزا</p>
+       <a href="https://pizzaandgrill.elwhab.com/" class="py-2 rounded-lg  px-4 bg-[#007aff] text-white flex items-center justify-center w-28 mx-auto">إكتشف</a>
+      </div>
+     </div>
+  </div>
+
+  <div class="swiper-pagination flex justify-center mt-4">
+</div>
+</div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="container mx-auto w-[83%]">
+      <h3 class="tracking-widest text-4xl my-[65px] text-center testimonial__title">عملاؤنا</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-100 lg:items-center lg:justify-center lg:mx-auto lg:mr-[80px]">
+        <!-- card 1 -->
+        <div class=" bg-[#2a2a2a3e] about__img">
+          <div class="border border-white py-14 rounded-2xl lg:w-80 
+          hover:scale-105 cursor-pointer ease-in-out 
+        duration-1000">
+            <img src="assets/2JTkjJ10BWYsff8xz8zOym3XpNoLrRtHhei3hssN-Photoroom.png" alt="" class="select-none">
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class=" bg-[#2a2a2a3e]  about__img">
+          <div class="border border-white py-8 rounded-2xl lg:w-80 
+          hover:scale-105 cursor-pointer ease-in-out 
+        duration-1000">
+            <img src="assets/387896.svg" alt="" class="select-none">
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="  bg-[#2a2a2a3e]  about__img ">
+          <div class="border border-white py-14 rounded-2xl lg:w-80 
+          hover:scale-105 cursor-pointer ease-in-out 
+        duration-1000">
+            <img src="assets/63936991-1901-40a5-8f15-1ba77d72e121.png" alt="" class="select-none">
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class=" bg-[#2a2a2a3e]  about__img ">
+          <div class="border border-white py-14 rounded-2xl lg:w-80
+          hover:scale-105 cursor-pointer ease-in-out 
+          duration-1000">
+            <img src="assets/s.png" alt="" class="select-none">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-[80px]" id="contact">
+    <div class="container mx-auto w-[83%]">
+      <div class="text-center mb-[30px]">
+        <h2 class="text-3xl">يمكنكم التواصل معنا علي</h2>
+      </div>
+      <div class="card mx-auto">
+        <a class="socialContainer containerOne" href="">
+          <svg viewBox="0 0 16 16" class="socialSvg instagramSvg"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+        </a>
+        
+        <a class="socialContainer containerTwo" href="#">
+          <svg viewBox="0 0 16 16" class="socialSvg twitterSvg"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path> </svg>              </a>
+          
+        <a class="socialContainer containerThree" href="http://linkedin.com/in/saad-harera-a5423a2b8">
+          <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+        </a>
+        
+        <a class="socialContainer containerFour" href="http://wa.me/+201556477029">
+          <svg viewBox="0 0 16 16" class="socialSvg whatsappSvg"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+        </a>
+      </div>             
+      
+      
+      <div class=" mx-auto border-t text-center mt-[50px] py-6">&copy; جميع الحقوق محفوظه <span class="text-violet-500">code verse</span></div>
+    </div>
+  </footer>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
