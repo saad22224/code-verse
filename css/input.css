@@ -1,3 +1,9 @@
+
+*{
+  overflow:hidden;
+}
+
+
 body{
     font-family: "Almarai", sans-serif;
     background: #000;
