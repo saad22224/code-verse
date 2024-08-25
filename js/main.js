@@ -77,7 +77,7 @@ const swiper = new Swiper('.swiper', {
   speed: 400,
   spaceBetween: 0,
   autoplay: {
-      delay: 3000,
+      delay: 2000,
       disableOnInteraction:false,
     },
       // Responsive breakpoints
